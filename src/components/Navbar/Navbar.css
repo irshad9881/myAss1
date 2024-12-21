@@ -1,0 +1,28 @@
+.navbar {
+    display: flex
+    ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color:#77b7fb;
+        color: rgb(24, 24, 24);
+        height: 50px;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        border-bottom: 1px solid #6e8a7f;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar .links a {
+    margin-left: 15px;
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .navbar .links a:hover {
+    text-decoration: underline;
+  }
+  

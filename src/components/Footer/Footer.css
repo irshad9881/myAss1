@@ -1,0 +1,74 @@
+/* Footer Container */
+.footer {
+  background-color: #2b63ebc7;
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-top: 5.8rem;
+  border-top: 1px solid rgba(5, 65, 105, 0.2);
+  height: auto; /* Adjust height dynamically */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d4d8dc;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(133, 216, 232) 0%,
+    rgb(120, 187, 211) 10%,
+    rgb(154, 201, 213) 20%,
+    rgb(178, 231, 244) 28%,
+    rgba(89, 216, 132, 1) 55%,
+    rgba(98, 227, 101, 0.9893207282913166) 100%
+  );
+}
+ 
+.para {
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 10px; 
+}
+
+/* Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 0.8rem;
+    flex-direction: column;  
+    height: auto;  
+  }
+
+  .para {
+    font-size: 14px;  
+  }
+}
+
+/* Smartphones (max-width: 768px) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.6rem;
+  }
+
+  .para {
+    font-size: 13px;  
+  }
+}
+
+/* Small Smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 0.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .para {
+    font-size: 12px;  
+    padding: 0 5px;  
+  }
+}

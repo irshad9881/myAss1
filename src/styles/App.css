@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e5e5ec;
+  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+}
+.header h1 {
+  text-align: center;
+  color: #333;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  height: 3rem;
+  margin-top: -.4em;
+  padding-top: .5em;
+  margin-bottom: 2em;
+  background-color: white;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  color: #333;
+}
+.app {
+  padding: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/*---------------------------
+   Website Scrollbar
+---------------------------*/
+/* Width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #E9FFFA; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #544ce7;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6043ed; 
+}
+

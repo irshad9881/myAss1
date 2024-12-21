@@ -1,0 +1,145 @@
+ 
+   .admin{
+    /* background-color: #9b5d5d; */
+    margin-bottom: 10.2em;
+   }
+   .admin h1{
+    text-align: center;
+    color: #333;
+    background: #c6e5eb;
+    margin-top: 0em;
+   }
+   .admin-panel {
+    padding: 20px;
+    display: flex;
+    margin-bottom: 5em;
+    flex-wrap: wrap;
+  }
+  .Heading{
+    margin: auto;
+    font-weight: 800;
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  .button{
+    display: flex;
+    column-gap: 2em;
+    flex-wrap: nowrap;
+    margin: auto;
+    justify-content: center;
+  }
+  .admin-panel form {
+    display: flex
+    ;
+        flex-direction: column;
+        gap: 10px;
+        width: 225px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        height: 282px;
+        margin-left: 1em;
+        margin-top: 1.4em;
+        background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+  }
+  
+  .profile-list {
+    margin-top: 20px;
+  }
+  
+  .profile-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  /* @media (max-width: 768px) {
+    .admin-panel {
+      width: 90%;
+    }
+  } */
+   /* Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .admin-panel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .admin-panel form {
+    width: 80%;
+  }
+
+  .profile-list {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .profile-card {
+    width: 220px;
+  }
+}
+
+/* Smartphones (max-width: 768px) */
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 15px;
+  }
+
+  .admin-panel form {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .profile-card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .button {
+    column-gap: 1em;
+    flex-direction: column;
+  }
+
+  .profile-card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profile-card h3 {
+    font-size: 16px;
+  }
+
+  .profile-card p {
+    font-size: 12px;
+  }
+}
+
+/* Small Smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+  .admin-panel {
+    padding: 10px;
+  }
+
+  .admin-panel form {
+    width: 80%;
+  }
+
+  .profile-card {
+    width: 100%;
+  }
+
+  .profile-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profile-card h3 {
+    font-size: 14px;
+  }
+
+  .profile-card p {
+    font-size: 10px;
+  }
+}

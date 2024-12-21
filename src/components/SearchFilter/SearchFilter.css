@@ -1,0 +1,83 @@
+.search-filter {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.search-filter input {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 60%;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-filter select {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 20%;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover and Focus States */
+.search-filter input:focus,
+.search-filter select:focus {
+  border-color: #4596fb;
+  box-shadow: 0 0 5px rgba(69, 150, 251, 0.5);
+}
+
+/* Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .search-filter {
+    width: 90%;
+    flex-direction: row;
+  }
+
+  .search-filter input {
+    width: 70%;
+  }
+
+  .search-filter select {
+    width: 25%;
+  }
+}
+
+/* Smartphones (max-width: 768px) */
+@media (max-width: 768px) {
+  .search-filter {
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .search-filter input {
+    width: 100%;
+  }
+
+  .search-filter select {
+    width: 104%;
+  }
+}
+
+/* Small Smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+  .search-filter {
+    gap: 8px;
+  }
+
+  .search-filter input,
+  .search-filter select {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

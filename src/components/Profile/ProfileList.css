@@ -1,0 +1,144 @@
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+.Vector1 {
+  position: absolute;
+  margin-top: -3rem;
+  left: 0;
+  width: 6rem;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 1; 
+}
+
+.Vector2 {
+  position: relative;
+  bottom: -6em;
+  right: 0;
+  width: 36rem;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 1;
+  margin-bottom: 0em;
+  margin-left: 59.5em;
+}
+
+.Vector3 {
+  position: absolute;
+  bottom: -2em;
+  right: 0;
+  width: 35rem;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 1;
+
+}
+
+.Vector4 {
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  width: 5rem;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 1;
+  filter: saturate(3);
+  height: 48em;
+}
+  .no-card{
+    color: red;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    transition: transform 0.2s;
+    line-height: 12px;
+    height: 250px;
+    text-align: center;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 800;
+  }
+@media (max-width: 1024px) {
+  .profile-list {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .Vector2 {
+    width: 28rem;
+    margin-left: 40em;
+  }
+
+  .Vector3 {
+    width: 28rem;
+  }
+
+  .no-card {
+    width: 200px;
+    height: 200px;
+    font-size: large;
+  }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .profile-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Vector1,
+  .Vector4 {
+    display: none;
+  }
+
+  .Vector2 {
+    width: 90%;
+    margin-left: 5em;
+    margin-right: auto;
+    bottom: -6em;
+  }
+
+  .Vector3 {
+    width: 90%;
+    bottom: -36em;
+  }
+
+  .no-card {
+    width: 90%;
+    height: 180px;
+    font-size: medium;
+  }
+}
+
+/* Smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+  .profile-list {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .Vector2,
+  .Vector3 {
+    display: none;
+  }
+
+  .no-card {
+    width: 90%;
+    height: auto;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+  }
+}
